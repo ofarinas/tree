@@ -18,6 +18,9 @@ public class Aplication {
       extendedTrie.insert("casa");
       extendedTrie.insert("capa");
       extendedTrie.insert("cara");
-        System.out.println(extendedTrie.contain("cara"));
+      extendedTrie.insert("hola");
+      extendedTrie.insert("que ");
+        //System.out.println(extendedTrie.contain("cara"));
+        System.out.println(extendedTrie.count());
     }
 }
